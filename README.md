@@ -877,7 +877,7 @@
     
         activeproject();
     }); 
-    ``
     
     // Optional: disable left arrow at start
-    arrowleft.classList.add('disabled');``
+    arrowleft.classList.add('disabled');
+    ``

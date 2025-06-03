@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Using HTML & CSS | Codehal</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="active">
+        <a href="#" class="logo">Thanh Hao Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active ">About me</a>
+            <a href="#">My Skills</a>
+            <a href="#">My Projects</a>
+        </nav>
+    </header>
+
+<!-- bar backgroud -->
+<div class="bar-box active">
+    <div class="bar" style="--i:6"></div>
+    <div class="bar" style="--i:5"></div>
+    <div class="bar" style="--i:4"></div>
+    <div class="bar" style="--i:3"></div>
+    <div class="bar" style="--i:2"></div>
+    <div class="bar" style="--i:1"></div>
+</div>
+
+<!-- about me section -->
+     <section class="about-me active">
+        <div class="detail">
+            <h1>Thanh Hao Lam</h1>
+            <h2>I am a
+                <span style="--i:4;" data-text="Business Analyst">Business Analyst</span>
+                <span style="--i:3;" data-text="Business Intelligent Analyst">Business Intelligent Analyst</span>
+                <span style="--i:2;" data-text="Business Analyst">Business Analyst</span>
+                <span style="--i:1;" data-text="Business Intelligent Analyst">Business Intelligent Analyst</span>
+            </h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div class="contact-button">
+                <a href="tel:+61423341899" class="btn">Contact Me</a>
+                <div class="contact">
+                    <a href="https://github.com/thanhhaolam" target="_blank" rel="noopener noreferrer"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="mailto:lhao1211@gmail.com"><i class='bx bxl-gmail' ></i></a> 
+                    <a href="tel:+61423341899"><i class='bx bx-phone' ></i></i></a> 
+                </div>
+            </div>
+        </div>
+        <div class="about-me-image">
+            <div class="image-box">
+                <div class="image-item">
+                     <img src="dp1.jpg">
+                </div>
+             </div>
+        </div>
+     </section>
+
+
+<!-- My Skills Lazy to change the name :P -->
+    <section class="portfolio">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="portfolio-container">
+        <!-- box for SQL -->
+           <div class="portfolio-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt' ></i>
+                    <a href="#"><i class='bx bx-left-arrow-circle' ></i></a>
+                </div>
+                <h3>SQL Workbench</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+           </div>
+        <!-- box for power BI -->
+            <div class="portfolio-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow' ></i>
+                    <a href="#"><i class='bx bx-left-arrow-circle' ></i></a>
+                </div>
+                <h3>Power BI</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+           </div>
+
+
+        <!-- box for power Python -->
+            <div class="portfolio-box">
+                <div class="icon">
+                    <i class='bx bxl-python' ></i>
+                    <a href="#"><i class='bx bx-left-arrow-circle' ></i></a>
+                </div>
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+           </div>
+        </div>
+    </section>
+
+<!-- Project section -->
+ <section class="project">
+    <h2 class="heading">My Recent <span>Projects</span></h2>
+    <div class="project-container">
+        <div class="project-box">
+            <div class="project-detail active">
+                <p class="numb">01</p>
+                <h3>SQL Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+                <div class="tech">
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/thanhhaolam/SQL-Project-Netflix"><i class='bx bx-left-arrow-circle' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/thanhhaolam/SQL-Project-Netflix"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                </div>
+            </div>
+            
+            <div class="project-detail">
+                <p class="numb">02</p>
+                 <h3>Python Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+                <div class="tech">
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/thanhhaolam/Programming-with-Python"><i class='bx bx-left-arrow-circle' ></i><span>Live Project</span></a>
+                    <a href="https://github.com/thanhhaolam/Programming-with-Python"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                </div>
+            </div>
+
+            <div class="project-detail">
+                <p class="numb">03</p>
+                 <h3>Power BI Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+                <div class="tech">
+                    <p>HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="github">
+                    <a href="#"><i class='bx bx-left-arrow-circle' ></i><span>Live Project</span></a>
+                    <a href="#"><i class='bx bxl-github' ></i><span>Github Repository</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <!-- image carousel -->
+            <div class="project-carousel">
+                <div class="img-slide">
+                    <div class="img-item">
+                        <img src="portfolio1.png">
+                    </div>
+                     <div class="img-item">
+                        <img src="portfolio 2.png">
+                    </div>
+                     <div class="img-item">
+                        <img src="portfolio 3.png">
+                    </div>
+                </div>
+            </div> 
+
+            <div class="navigation">
+                <button class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+                <button class="arrow-right"><i class='bx bx-chevron-right' ></i></button>
+            </div>
+        </div>
+    </div> 
+ </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
